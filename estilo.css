@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+header img{
+    width: 100%
+}
+
+.form-control{
+    border:1px solid #D29680;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.btn-outline-success {
+    color:black;
+    border-color: #D29680;
+}
+
+.btn-outline-success:hover  {
+    color: rgb(0, 0, 0); 
+    background-color:#FF5353;
+    border-color: #C88E8E;
+}
+
+
+body{
+    min-height:100%; 
+    padding:0;
+    margin:0;
+    position:relative;
+    background-color: #EFD28D ;
+}
+.card:hover{
+    box-shadow: 1px 1px 9px 1px #00000036;
+}
+#base{
+   background-color:  #DD597D;
+}
+
+#batom{
+    background-color: #C88E8E;
+}
+
+#pincel{
+    background-color: #EAA400;
+}
+
+#esponja{
+    background-color:#E1E1FF
+}
+
