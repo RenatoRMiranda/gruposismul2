@@ -56,9 +56,7 @@ body{
 #wrapper{
  align-items: stretch;
 }
-.navbar-adjustment{
-    width: 100%;
-}
+
 #hello{
   color: white !important;
 }
