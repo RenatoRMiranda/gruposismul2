@@ -1,99 +1,141 @@
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible"  lang="pt-br" content="IE=edge">
-    <title>Cosmeticos Ivone</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="./js.js"></script>
-    <link rel="icon" href="https://www.maquiadoro.com.br/Custom/Content/Themes/Shared/Images/Favicon/favicon.ico" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" lang="pt-br" content="IE=edge">
+  <title>Cosmeticos Ivone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+  <link rel="icon" href="https://www.maquiadoro.com.br/Custom/Content/Themes/Shared/Images/Favicon/favicon.ico" type="image/gif"
+    sizes="16x16">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
 </head>
+
 <body>
-        <nav id="nav" class="navbar navbar-expand-lg navbar-light " >
-                <a class="navbar-brand" href="#">Cosmeticos Ivone</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li  id ="inicio" class="nav-item active">
-                      <a class="nav-link"  href="#">Inicio</a>
-                    </li>
-                    <li id="face"  class="nav-item">
-                      <a class="nav-link"  onclick="clicarFace()" href="#cara">Face</a>
-                    </li>
-                    <li  id="corpo" class="nav-item">
-                      <a class="nav-link"  onclick="clicarCorpo()" href="#cara2">Corpo</a>
-                    </li>
-                  </ul>
-                </div>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Creme....etc" aria-label="Search">
-              <button id="buscar" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-              </nav>
-
-              <div class="container mt-3">
-              <header>
-            <div class="d-flex justify-content-center mb-3">
-        <img src="https://qbbr.vteximg.com.br/arquivos/ids/169990/qdb_DORMIU-PERDEU-cupom-50-reais.gif">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">Cosmeticos Ivone</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li id="inicio" class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li id="face" class="nav-item">
+          <a class="nav-link" onclick="clicarFace()" href="#cara">Face</a>
+        </li>
+        <li id="corpo" class="nav-item">
+          <a class="nav-link" onclick="clicarCorpo()" href="#cara2">Corpo</a>
+        </li>
+      </ul>
     </div>
-</header>
-                <!-- BASE E BATOM / também pra cara porem outra sessao-->
-                    <div id="cara2"></div>
-                <div class="d-flex justify-content-centermb-3">
-                  <div class="p-2">
-                        <div id="batom" class="card">
-                                <img class="card-img-top" src="https://www.makery.com.br/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/b/a/batom_matte_nude_rosa_01.png" alt="Card image">
-                                <div class="card-body">
-                                  <h4 class="card-title">Batom</h4>
-                                  <p class="card-text">As linhas Aquarela, Faces e Una têm batons com uma infinidade de cores nas texturas bala, líquido ou tint. </p>
-                                </div>
-                              </div>
-                  </div>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Creme....etc" aria-label="Search">
+      <button id="buscar" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </nav>
+    <header>
 
-                  <div class="p-2">
-                        <div id="base" class="card">
-                                <img class="card-img-top" src="https://img.benefitcosmetics.com/image/upload/f_auto,q_auto,fl_lossy/origin_files/pt/pt-br/sites/pt/files/styles/category_page_lg/public/hello-happy-component.png?itok=_a22T-qQ" alt="Card image">
-                                <div class="card-body">
-                                  <h4 class="card-title">Base Rosto</h4>
-                                  <p class="card-text">Cobertura sempre impecável. Na Natura você encontra bases com alta tecnologia de pigmentação e diferentes tons e texturas pro seu rosto.</p>
-                                  
-                                </div>
-                              </div>
-                  </div>
-                </div>
+    </header>
+    <div class="card-columns">
+        <div class="container">
+            <div class="container"
+            data-infinite-scroll='{ "path": ".pagination__next", "append": ".card", "history": false }'>
+        <div class="card">
+           
+          <img src="https://storage.googleapis.com/optimus-static-dev/BY_CART/product-images/kits-booster/03-boosters.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Produto</h5>
+            
+          </div>
+        </div>
 
-                <!-- PINCEL E ESPONJA / coisas pro rosto / cara -->
-        <div id="cara"> 
-                <div class="d-flex justify-content-between  mb-3">
-                        <div class="p-2 ">
-                                <div  id="pincel" class="card">
-                                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1612/8695/products/T7_grande.png?v=1513057174" alt="Card image">
-                                        <div class="card-body">
-                                          <h4 class="card-title">Pincel Facial</h4>
-                                          <p class="card-text">O Kit de Pincéis de Natura Una vem com 1 pincel para blush, 1 pincel para pó ... para aplicar com precisão a maquiagem sobre a pele, olhos e maçãs do rosto.</p>
-                                        </div>
-                                      </div>
-                 </div>
-                        <div class="p-2 ">
-                                <div id="esponja" class="card">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/5/klass-vough-profissional-drop-esponja-de-maquiagem-44962-8233011102619513023.png" alt="Card image">
-                                        <div class="card-body">
-                                          <h4 class="card-title">Esponja Facial</h4>
-                                          <p class="card-text">Esta Esponja de Limpeza Facial Silicone, [e ideal para limpar a pele antes do dia começar </p>
-                                        </div>
-                                      </div>
-                        </div>
-                </div>
-            </div>
+        <div class="card">
+          <img src="https://media.giphy.com/media/XtdKEIig98R4f8Muq8/giphy.gif" class="card-img-top">
+        </div>
 
-            <!-- site usado para as cores https://www.incengine.com/?name=Pastel-HTML-Color-Codes&art=pastel_colors -->
-      
-        <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <div class="card">
+          <img src="https://cdn.discordapp.com/attachments/692883507059621980/715717356663341096/unknown.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Produto</h5>
+            <h5>R$55,99</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://lh3.googleusercontent.com/proxy/hCySYGa92-7Vh9TX7t8PmofxyFaPfcg8z3Kausz-2w55I6_Efb49UuyATB6naB9fMGtduOzDwXU1O7pHfk5tad9K2x_T6dUEC-UcmdxGDp7jH2l2Zioy3WsW4g"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Shampoo</h5>
+            <h5>R$55,99</h5>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://pluspng.com/img-png/makeup-brush-png-hd-makeup-transparent-png-1280.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pincel de rosto</h5>
+            <h5>R$55,99</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://i.giphy.com/media/cKt4jfoInVLhCe0HX8/giphy.webp" class="card-img-top">
+
+        </div>
+        <div class="card">
+          <img src="https://pngriver.com/wp-content/uploads/2018/04/Download-Makeup-PNG-Photos.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paleta de Make</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://cdn.discordapp.com/attachments/692883507059621980/715717356663341096/unknown.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Produto</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <script src="js.js"></script>
+      <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.js"></script>
+  <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>

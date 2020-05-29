@@ -2,9 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 
-header img{
-    width: 100%
-}
 
 .form-control{
     border:1px solid #D29680;
@@ -30,10 +27,21 @@ body{
     background-color: #EFD28D ;
 }
 .card:hover{
-    box-shadow: 1px 1px 9px 1px #00000036;
+    box-shadow: 1px 1px 9px 1px#CB4181;
 }
-#base{
-   background-color:  #DD597D;
+
+.card  {
+  color: #CB4181;
+ 
+}
+
+.card img{
+    max-width: 450px;
+}
+
+.card-body{
+    background: #FFEFE3
+
 }
 
 #batom{
@@ -44,7 +52,4 @@ body{
     background-color: #EAA400;
 }
 
-#esponja{
-    background-color:#E1E1FF
-}
 
