@@ -10,36 +10,37 @@
     type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
 </head>
 
 <body>
-  <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="#">Cosmeticos Ivone</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li id="inicio" class="nav-item active">
-          <a class="nav-link" href="#">Inicio</a>
-        </li>
-        <li id="face" class="nav-item">
-          <a class="nav-link" onclick="clicarFace()" href="#cara">Face</a>
-        </li>
-        <li id="corpo" class="nav-item">
-          <a class="nav-link" onclick="clicarCorpo()" href="#cara2">Corpo</a>
-        </li>
-      </ul>
-    </div>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Creme....etc" aria-label="Search">
-      <button id="buscar" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+  <nav class="navbar" style="background-color:#DFB57F;">
+    <a class="navbar-brand" href="#">
+      <img src="img/ivone.png" height="160" width="250" alt="Ivone Cosméticos">
+    </a>
+    <a href="">Face</a>
+    <a href="">Corpo</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
     </form>
+    <div class="inline">
+      <img src="img/person-10.png" alt="" style="margin-right: 0.2ch; width: 30px;" style="color: white;">
+      <a href="" style="margin-right:8ch;">Login</a>
+    </div>
+
   </nav>
 
   <div class="container">
+
+    <header>
+      <div class="d-flex justify-content-center mb-3">
+        <img src="https://qbbr.vteximg.com.br/arquivos/ids/169990/qdb_DORMIU-PERDEU-cupom-50-reais.gif">
+      </div>
+    </header>
+
+    <div class="spacer"></div>
+
     <div class="flexo-h">
       <img src="img/shampooe.jpg" alt="Shampoo" width="400px">
       <div class="flexo-v">
@@ -68,7 +69,6 @@
     </div>
   </div>
 
-  <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>

@@ -53,6 +53,14 @@ header img{
     background-color: #FF2088;
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color:#ff63b4;
+}
+
 h1,h3 {
     font-weight: bold;
 }
