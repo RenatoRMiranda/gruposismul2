@@ -6,6 +6,10 @@ header img{
     width: 100%
 }
 
+.spacer {
+    height: 40px;
+}
+
 .flexo-h{
     display: flex;
     flex-direction: row;
@@ -13,20 +17,21 @@ header img{
     justify-content: space-evenly;
 }
 
+.h-left{
+    justify-content: flex-start;
+}
+
+.grido{
+    display: grid;
+    justify-items: center;
+}
+
 .flexo-i {
     width: 320px;
 }
 
-.inflex {
-    width: 100%;
-}
-
 .v-center {
     align-items: center;
-}
-
-.flexo-bottom{
-    align-self: flex-end;
 }
 
 .flexo-v{
