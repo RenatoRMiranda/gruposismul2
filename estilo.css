@@ -3,21 +3,20 @@ html {
   }
 
 
-.form-control{
-    border:1px solid #D29680;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
-}
 .btn-outline-success {
     color:black;
     border-color: #D29680;
 }
 
 .btn-outline-success:hover  {
-    color: rgb(0, 0, 0); 
-    background-color:#FF5353;
-    border-color: #C88E8E;
+    color: #000000; 
+    background-color:#993333c2;
+    border-color: #cb4181;
 }
 
+img{
+    width: 50%
+}
 
 body{
     min-height:100%; 
@@ -27,11 +26,11 @@ body{
     background-color: #EFD28D ;
 }
 .card:hover{
-    box-shadow: 1px 1px 9px 1px#CB4181;
+    box-shadow: 1px 1px 9px 1px #B96F6F;
 }
 
 .card  {
-  color: #CB4181;
+  color: #cb4181;
  
 }
 
